@@ -1,0 +1,31 @@
+What: Describe What the Thing Does
+
+Clearly explain what the feature, tool, or process is.
+
+Use simple language to define it.
+
+Example: "Kafka is a system that lets different applications send messages to each other in real time, which means data can be transferred quickly and continuously. It works well when you need to handle lots of messages at once, like monitoring website activity or processing user interactions. Instead of sending messages directly from one system to another, Kafka acts as an intermediary that allows multiple systems to read these messages whenever they need to."
+
+When: Describe When to Use It
+
+Provide scenarios where this tool or feature is the best choice.
+
+Detail situations that would make it effective, and common use cases.
+
+Example: "Use Kafka when you need to handle a large amount of data that needs to be processed as it is being generated. For example, Kafka is suitable for scenarios where you are tracking user interactions on a website in real time, monitoring transactions in an e-commerce platform, or processing sensor data from IoT devices. Kafka allows you to collect, store, and analyze these data streams efficiently, enabling quick reactions and insights."
+
+How: Give Step-by-Step Instructions
+
+Include the detailed steps for using the tool or process.
+
+Make it straightforward, without assuming the reader knows extra details.
+
+Example: "Step 1: Install Kafka... Step 2: Set up Zookeeper..."
+
+Why: Explain the Benefit
+
+Explain why this specific approach is recommended.
+
+Highlight the advantage of using this tool or process over alternatives.
+
+Example: "Kafka is ideal here because it can process a very large number of messages quickly without significant delays. This makes it highly suitable for data-intensive applications where real-time processing is crucial, such as tracking live financial transactions, managing sensor data from thousands of IoT devices, or processing log data from multiple servers in real-time. Kafka ensures that messages are not only transferred quickly but also reliably, even at scale."
