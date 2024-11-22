@@ -1,0 +1,97 @@
+**Guidelines for Product-Aligned and Support-Aligned Documentation**
+
+### **Product-Aligned Documentation**
+
+For product-aligned documentation, the goal is to provide a comprehensive understanding of features, tools, or processes in a way that allows users to understand what they are, how they function, and when they should be used. The What, When, How, Why framework is ideal for achieving clarity and depth in product-aligned content.
+
+1. **What: Describe What the Thing Does**
+    - Clearly explain what the feature, tool, or process is.
+    - Use simple language to define it.
+    - **Example**: "Kafka is a system that lets different applications send messages to each other in real time, which means data can be transferred quickly and continuously. It works well when you need to handle lots of messages at once, like monitoring website activity or processing user interactions. Instead of sending messages directly from one system to another, Kafka acts as an intermediary that allows multiple systems to read these messages whenever they need to."
+
+2. **When: Describe When to Use It**
+    - Provide scenarios where this tool or feature is the best choice.
+    - Detail situations that would make it effective, and common use cases.
+    - **Example**: "Use Kafka when you need to handle a large amount of data that needs to be processed as it is being generated. For example, Kafka is suitable for scenarios where you are tracking user interactions on a website in real time, monitoring transactions in an e-commerce platform, or processing sensor data from IoT devices. Kafka allows you to collect, store, and analyze these data streams efficiently, enabling quick reactions and insights."
+
+3. **How: Give Step-by-Step Instructions**
+    - Include the detailed steps for using the tool or process.
+    - Make it straightforward, without assuming the reader knows extra details.
+    - **Example**: "Step 1: Install Kafka... Step 2: Set up Zookeeper..."
+
+4. **Why: Explain the Benefit**
+    - Explain why this specific approach is recommended.
+    - Highlight the advantage of using this tool or process over alternatives.
+    - **Example**: "Kafka is ideal here because it can process a very large number of messages quickly without significant delays. This makes it highly suitable for data-intensive applications where real-time processing is crucial, such as tracking live financial transactions, managing sensor data from thousands of IoT devices, or processing log data from multiple servers in real-time. Kafka ensures that messages are not only transferred quickly but also reliably, even at scale."
+
+5. **Consistent Language**:
+    - Use consistent technical jargon, and define it on first use.
+    - Maintain a standard format for headings and subheadings to improve readability.
+
+6. **Use Case Scenarios**:
+    - Provide concrete examples where the feature has been effectively used.
+    - For each use case, detail the problems it solves and the benefits to the user.
+
+### **Support-Aligned (Reliability-Aligned) Documentation**
+
+For support-aligned documentation, our goal is to provide users with clear instructions that guide them through processes in a step-by-step manner. Each step should incorporate the What, When, How, and Why framework to ensure users understand not only the actions they need to take but also the context and benefits of each action. This makes the documentation both intuitive and effective, addressing user intent and promoting self-sufficiency.
+
+#### **Structure of Support Documentation**
+
+1. **Clear Process Flows**:
+    - Begin with an **Overview**: Describe what the process as a whole accomplishes.
+    - Use a **Flowchart**: If applicable, visually outline the major steps in the process to help users understand the complete journey before diving into the details.
+    - **Numbered Steps**: Use a step-by-step structure, numbering each part for easy reference.
+    - **Headings and Subheadings**: Break down sections clearly for easy navigation.
+
+2. **Detailed Step-by-Step Instructions**:
+    - Each step should have the following components:
+
+    #### Step Format: **What, When, Why, How**
+
+    - **Step 1: What**
+      - **What It Is**: Describe what the action is. For instance, "Restart the web server."
+      - **When to Use It**: Explain when this step is appropriate, e.g., "Restart the web server if you encounter a 502 Gateway Error."
+      - **Why It's Needed**: Describe why this action is recommended, e.g., "Restarting the server can help resolve temporary network issues and restore communication."
+      - **How to Do It**: Provide detailed instructions, e.g., "Go to the server management console, locate 'Apache Server,' and click on 'Restart.'"
+
+    - **Step 2: What**
+      - **What It Is**: "Check the server logs."
+      - **When to Use It**: "After restarting the web server, if the issue persists."
+      - **Why It's Needed**: "Reviewing the logs can help pinpoint specific error messages or misconfigurations."
+      - **How to Do It**: "Navigate to `/var/logs/`, open the latest log file, and search for recent entries related to the error."
+
+3. **Use Case Scenarios**
+    - Include real-world examples of common issues and how to resolve them using the documented process.
+    - For each scenario, indicate why the documented steps are helpful, and what outcome the user should expect after following them.
+
+4. **Standardized Language**
+    - Use consistent technical terminology.
+    - Clearly define any technical jargon on first use, e.g., "A **502 Gateway Error** occurs when one server on the internet receives an invalid response from another server."
+    - Use bullet points or numbering for clarity where appropriate.
+
+5. **User Intent Focus**
+    - Think about **what the end user might be trying to solve**.
+    - Give relevant examples to connect the process to actual problems.
+    - Avoid ambiguity; provide actionable steps users can easily replicate.
+
+#### **Example of Support Documentation Step Using What, When, Why, How Framework**
+
+##### **Step 3: Clear Cache in Web Browser**
+- **What**: Clear the cache in your web browser.
+- **When**: Perform this step if you are experiencing issues like outdated content loading or UI inconsistencies.
+- **Why**: Cached files can sometimes interfere with newly updated elements of a web page, leading to visual errors or incorrect data being displayed.
+- **How**:
+  1. Open your browser settings.
+  2. Locate the 'Privacy and Security' section.
+  3. Select 'Clear Browsing Data.'
+  4. Ensure 'Cached Images and Files' is checked, and click 'Clear Data.'
+
+### **Tips for Writing Support Documentation**
+- **Minimize Assumptions**: Assume users have basic familiarity with the system, but do not assume expert-level knowledge. Describe each action clearly.
+- **Anticipate Obstacles**: Where users may encounter issues, preemptively include troubleshooting steps.
+- **Review for Completeness**: Each step should stand alone; users should not need to reference external guides to understand or complete a step.
+
+### **Summary**
+Using the What, When, Why, How framework for each step in both product and support documentation ensures the user understands the action they're taking, the context in which it is needed, the reason for doing it, and exactly how to do it. This approach makes both product and support documentation more transparent, empowering users to use features effectively and resolve issues confidently.
+
